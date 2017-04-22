@@ -1,0 +1,17 @@
+branch-defaults:
+  master:
+    environment: demo-ci-github-dev
+    group_suffix: null
+global:
+  application_name: demo-ci-github
+  branch: null
+  default_ec2_keyname: null
+  default_platform: PHP 7.0
+  default_region: eu-west-1
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: git
+  workspace_type: Application
